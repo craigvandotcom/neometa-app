@@ -11,7 +11,8 @@
 
 ## Shared infrastructure (inherited — rules in the memory substrate)
 
-- Brand: `@neometa/brand` preset; source of truth `../neometa-brand/brand-system.md`
+- Brand: `@neometa/brand` preset (runtime tokens only); brand identity source of truth:
+  `../.claude/skills/brand-system/reference/brand-system.md` (moved out of neometa-brand 2026-05-14)
 - If a backend ever lands: shared Supabase project rules → `rule-shared-supabase-schemas`,
   `rule-cross-app-migrations-bca-host`
 
@@ -19,3 +20,6 @@
 
 - Follow `../AGENTS.md` (software-level conventions).
 - Durable lessons → `memory/auto/` per the `context-engineering` skill.
+- **No CORE skill yet (deliberate, 1.6.3 B8):** this file is the complete context —
+  there are no exhaustive app facts to progressively disclose. Instantiate
+  `.claude/skills/CORE/` from the BCA/unsit template when site code lands here.
