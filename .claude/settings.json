@@ -10,5 +10,9 @@
         ]
       }
     ]
+  },
+  "env": {
+    "WORKTREES_ENABLED": "1",
+    "AGENT_NAME": "FoggyCreek"
   }
 }
