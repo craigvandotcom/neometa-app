@@ -15,5 +15,6 @@
     "GIT_IDENTITY_ENABLED": "1",
     "AGENT_NAME": "FoggyCreek",
     "CLAUDE_CODE_SUBAGENT_MODEL": "sonnet"
-  }
+  },
+  "skillListingBudgetFraction": 0.02
 }
