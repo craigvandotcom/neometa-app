@@ -1,5 +1,7 @@
 # neometa-app — Agent Entry Point
 
+Agent Mail project key: `neometa-app`
+
 ## What this is
 
 | Field | Value |
