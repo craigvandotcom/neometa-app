@@ -1,0 +1,49 @@
+---
+import '../styles/global.css'
+
+interface Props {
+  title?: string
+  description?: string
+}
+
+const {
+  title = 'neoMeta — health sovereignty across food, movement, and stillness',
+  description = 'A four-app compass system for understanding your own biology. Your body produces signal — neoMeta makes it legible.',
+} = Astro.props
+---
+
+<!doctype html>
+<html lang="en" class="bg-surface-warm">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://api.fontshare.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://api.fontshare.com/v2/css?f%5B%5D=general-sans@200,300,400,500,600,700&display=swap"
+    />
+
+    <!-- OG / Twitter -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://neometa.app" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <title>{title}</title>
+  </head>
+  <body class="min-h-screen antialiased">
+    <slot />
+  </body>
+</html>

@@ -7,7 +7,7 @@ Agent Mail project key: `neometa-app`
 | Field | Value |
 |---|---|
 | **Name** | neometa-app |
-| **Status** | **This repo holds tooling only** (`.claude/`, `memory/`; single branch, no app code) — the live site at neometa.app is deployed from elsewhere (location unconfirmed, flagged 2026-06-10); site code lands here if/when consolidated |
+| **Status** | **Live** — this repo is the site source; Vercel project `neometa-app` deploys `main` to neometa.app. (Site code was accidentally deleted in 80fba6a on 2026-06-06 and restored 2026-10-26.) |
 | **Will be / is** | Umbrella site for the neoMeta system — Astro 5 + TS + Tailwind + `@neometa/brand`. Light surface; uses all four pillar colors only when introducing the system |
 | **Domain** | neometa.app |
 

@@ -1,0 +1,23 @@
+{
+  "name": "neometa-app",
+  "version": "0.0.1",
+  "private": true,
+  "description": "neoMeta umbrella site — the calm center of the eat.move.meditate health portfolio.",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.1.5",
+    "@neometa/brand": "github:craigvandotcom/neometa-brand",
+    "astro": "^5.0.0",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
